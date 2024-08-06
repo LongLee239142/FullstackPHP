@@ -1,0 +1,26 @@
+.continute {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 20px; /* add this line to round both ends */
+  background-color: #5995fd;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.continute:hover {
+  background-color: #0062cc;
+  transform: translateY(-2px);
+}
+
+.continute:active {
+  background-color: #0056b3;
+  transform: translateY(0);
+}

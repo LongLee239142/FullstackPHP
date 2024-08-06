@@ -1,0 +1,145 @@
+   #page {
+            display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pricesort {
+            display: block;
+            display: flex;
+            justify-content: left;
+        }
+
+        #active {
+            background: black;
+            color: white;
+        }
+
+        .hh {
+            margin-left: 30px;
+        }
+
+        .prd:hover {
+            transform: scale(1.05);
+            background-color: white;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        #Review {
+            font-size: 17px;
+            color: gray;
+        }
+
+        .btt {
+            background-color: #0066FF;
+            color: white;
+        }
+
+        .btt:hover {
+            transform: scale(1.05);
+            background-color: #0099FF;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        #category {
+            font-size: 17px;
+        }
+
+        .py-5 {
+            padding: 15em;
+        }
+
+        .pyll {
+            padding: 30em;
+        }
+
+        .FiL {
+            display: center;
+            width: 300px;
+            text-align: center;
+        }
+
+        .py-5 {
+            padding: 12vw;
+            /* This will be 15em on a 1000px wide viewport */
+        }
+
+        .pyll {
+            padding: 15vw;
+            /* This will be 30em on a 1000px wide viewport */
+        }
+
+        .FIlter {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* padding-top: 20px; */
+            margin-bottom: 12px;
+        }
+
+        .FiL {
+            /* margin-left: 35%; */
+            /* margin-right: 50%; */
+            width: 300px;
+            text-align: center;
+            /* Make .FiL width responsive */
+            width: 50%;
+
+            /* On viewports smaller than 600px, .FiL will take up half the width */
+            @media (min-width: 600px) {
+                width: 300px;
+                /* On viewports 600px wide and larger, .FiL will have a fixed width */
+            }
+        }
+
+        /* styles.css */
+
+        /* Desktop styles */
+
+        @media (max-width: 768px) {
+
+            /* Tablet styles */
+            .header {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            /* Mobile styles */
+            .header {
+                flex-direction: column;
+                padding: 10px;
+            }
+
+            .nav-link {
+                font-size: 16px;
+            }
+        }
+        body {
+            margin-top: 20px;
+            background: #eee;
+          }
+      
+          .ui-w-40 {
+            width: 40px !important;
+            height: auto;
+          }
+      
+          .card {
+            box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .08);
+          }
+      
+          .ui-product-color {
+            display: inline-block;
+            overflow: hidden;
+            margin: .144em;
+            width: .875rem;
+            height: .875rem;
+            border-radius: 10rem;
+            -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+            vertical-align: middle;
+          }
+          
